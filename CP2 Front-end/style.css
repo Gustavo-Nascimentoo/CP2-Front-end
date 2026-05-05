@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F2F2F2;
+}
+
+.cabecalho{
+    padding: 20px;
+}
+
+.cabecalho h1{
+    font-family: Montserrat, sans-serif;
+    margin: 20px 100px 20px;
+    color: #0B6E4F;
+}
+
+.marcas{
+    background-color: #0B6E4F;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.marcas h2{
+    color: #FFF;
+    margin: 20px 100px 20px;
+    font-family: Poppins, sans-serif;
+}
+
+.imagens-marcas img{
+    height: 50px;
+    width: auto;
+}
+
+.sobre{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.sobre p::first-letter{ /* 1º PSEUDO ELEMENTO */
+    font-size: 23px;
+}
+
+.sobre h1{
+    font-family: Poppins, sans-serif;
+    margin: 0px 70px 0px;
+}
+
+.sobre p{
+    font-family: Poppins, sans-serif;
+    margin: 0px 70px 0px;
+    text-align: justify;
+}
+
+.imagem-trofeu img{
+    height: 850px;
+    margin: 30px 70px 50px;
+}
+
