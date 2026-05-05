@@ -125,4 +125,65 @@ input{
     align-items: center;
     gap: 30px;
 }
+#populares{
+    font-family: Poppins, sans-serif;
+    margin: 0px 70px 75px;
+}
 
+.mais-vendidos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.mais-vendidos p{
+    font-family: Poppins, sans-serif;
+    color: black;
+}
+
+.mais-vendidos h2{
+    color: #0B6E4F;
+    font-family: Poppins, sans-serif;
+}
+
+#fundo-diferente{
+    background-color: rgb(187, 187, 187);
+    padding: 50px 0px 0px;
+}
+
+.contatos{
+    font-family: Poppins, sans-serif;
+    margin: 70px 70px 75px;
+}
+
+.contatos li{
+    font-size: 20px;
+}
+
+.rodape{
+    background-color: #0B6E4F;
+    padding: 10px;
+    text-align: center;
+}
+
+.rodape p{
+    font-family: Poppins, sans-serif;
+    color: #FFF;
+    font-size: 25px;
+}
+
+input:focus{ /* 2º PSEUDO CLASSE */
+    background-color: yellow;
+}
+
+li:nth-child(1){ /* 3º PSEUDO CLASSE */
+    color: rgb(0, 110, 255);
+}
+
+li:nth-child(2){ /* 3º PSEUDO CLASSE */
+    color: rgb(216, 47, 126);
+}
+
+::placeholder{ /* 2º PSEUDO ELEMENTO */
+    color: black;
+}
