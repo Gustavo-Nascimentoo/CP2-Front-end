@@ -64,3 +64,65 @@ body {
     margin: 30px 70px 50px;
 }
 
+.camisetas, .acessorios, .copa-do-mundo{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.camisetas p, .acessorios p, .copa-do-mundo p{
+    font-family: Poppins, sans-serif;
+    color: grey;
+}
+
+.camisetas h2, .acessorios h2, .copa-do-mundo h2{
+    color: #0B6E4F;
+    font-family: Poppins, sans-serif;
+}
+
+.imagens-camisetas img, .imagens-acessorios img, .imagens-copa img{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 3%;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    gap: 20px;
+}
+
+.box-tamanho{
+    height: 40px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+}
+
+.box-tamanho:hover{ /* 1º PSEUDO CLASSE */
+    background-color: #0B6E4F;
+    color: #FFF;
+}
+
+.box-tamanho:focus{ /* 2º PSEUDO CLASSE */
+    background-color: #0B6E4F;
+    color: #FFF;
+}
+
+input{
+    height: 37px;
+    width: 40px;
+    text-align: center;
+}
+
+.box-quantidade{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
